@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.card{
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content{
+    background-color: rgb(214, 208, 208);
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+    height: 300px;
+    max-width: 600px;
+    overflow: hidden;
+    font-family: 'Cinzel', serif;
+    
+   
+}
+.img{
+    min-width: 300px;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 60%;
+  
+    transition: transform 1s ease-in-out;
+  
+}
+img:hover{
+    transform: scale(1.4);
+}
+.content h3{
+    padding-top: 30px;
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: rgb(131, 130, 130);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.content p{
+    padding-top: 40px;
+    padding-right: 15px;
+   
+    
+}
+.text{
+    transition-property: transform;
+    animation: text 1s;
+} 
+@keyframes text {
+    from{
+        transform: translateX(-40px);
+    }
+    to{
+        transform:translateX(0px);
+    }
+}
