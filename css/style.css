@@ -4,7 +4,7 @@
     margin: 0;
 }
 .card{
-    background-color: gray;
+    background-color: rgb(101, 105, 182);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -13,7 +13,7 @@
 
 }
 .content{
-    background-color: rgb(214, 208, 208);
+    background-color: rgba(214, 208, 208, 0.247);
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     border-radius: 20px;
@@ -47,7 +47,7 @@ img:hover{
     color: blue;
     text-decoration: underline;
     text-underline-offset: 8px;
-    text-decoration-color: rgb(131, 130, 130);
+    text-decoration-color: rgb(247, 255, 4);
     text-transform: uppercase;
     letter-spacing: 2px;
 }
